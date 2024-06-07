@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: #fff;
+    font-size: 16px;
+    font-family: Math;
+}
+
+p {
+    font-size: 18px;
+    font-family: josefin sans;
+}
+
+.head{
+    background-color: #333333;
+    height: 150px;
+}
+
+.logo{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img{
+    border-radius: 5%;
+}
+
+.navbar ul li{
+    display: inline;
+    text-align: center;
+}
+
+.navbar li a{
+    color: #fff;
+    padding: 0px 15px;
+}
+
+.navbar ul{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    padding: 15px 0px;
+}
+
+.navbar li a:hover{
+    color: #ffffffab;
+}
+
+.image-collections{
+    display: block;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.image-collections img{
+    width: 300px;
+    height: 300px;
+}
+
+.post-1 {
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px 30px 0px 30px;
+    border: 1px solid grey;
+    margin: 0px 800px 0px 120px;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-1 h4{
+    padding: 10px 0px;
+}
+
+.post-1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-2 {
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    border: 1px solid grey;
+    margin: 20px 490px 0px 510px;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-2 h4{
+    padding: 10px 0px;
+}
+
+.post-2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-3 {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 20px 410px 0px 580px;
+    padding: 10px 30px 0px 30px;
+    top: 34%;
+    left: 23%;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-3 h4{
+    padding: 10px 0px;
+}
+
+.post-3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-4 {
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px 30px 0px 30px;
+    border: 1px solid grey;
+    margin: 30px 800px 0px 120px;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-4 h4{
+    padding: 10px 0px;
+}
+
+.post-4:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-5 {
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 25px 0px 25px;
+    border: 1px solid grey;
+    margin: 30px 490px 0px 500px;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-5 h4{
+    padding: 10px 0px;
+}
+
+.post-5:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-6 {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 30px 410px 0px 580px;
+    padding: 10px 30px 0px 30px;
+    top: 93%;
+    left: 23%;
+    box-shadow: 0px 0px 12px 8px #898484;
+    cursor: pointer;
+}
+
+.post-6 h4{
+    padding: 10px 0px;
+}
+
+.post-6:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.banner-image img {
+    margin: 10px 0px 20px 110px;
+    height: 56%;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 9px #b3b3b3;
+    cursor: pointer;
+}
+
+.foot{
+    background-color: #333333;
+    height: 100px;
+}
+
+.credits{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.credits h4{
+    color: #16b3fc;
+}
+
+.credits a{
+    color: #fff;
+}
+
+.credits a:hover{
+    color: #ffffffaf;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa-xl {
+    font-size: 1.8em;
+    margin-left: 15px;
+    color: #fff;
+    padding: 10px 0px 20px 0px;
+}
+
+.social-links .fa-xl:hover{
+    color: #ffffffaf;
+}
