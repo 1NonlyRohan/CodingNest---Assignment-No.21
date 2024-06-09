@@ -76,7 +76,6 @@ p {
     padding: 10px 30px 0px 30px;
     border: 1px solid grey;
     margin: 0px 800px 0px 120px;
-    box-shadow: 0px 0px 12px 8px #898484;
     cursor: pointer;
 }
 
@@ -95,7 +94,6 @@ p {
     padding-top: 10px;
     border: 1px solid grey;
     margin: 20px 490px 0px 510px;
-    box-shadow: 0px 0px 12px 8px #898484;
     cursor: pointer;
 }
 
@@ -116,7 +114,6 @@ p {
     padding: 10px 30px 0px 30px;
     top: 34%;
     left: 23%;
-    box-shadow: 0px 0px 12px 8px #898484;
     cursor: pointer;
 }
 
@@ -135,7 +132,6 @@ p {
     padding: 10px 30px 0px 30px;
     border: 1px solid grey;
     margin: 30px 800px 0px 120px;
-    box-shadow: 0px 0px 12px 8px #898484;
     cursor: pointer;
 }
 
@@ -153,8 +149,7 @@ p {
     border-radius: 10px;
     padding: 10px 25px 0px 25px;
     border: 1px solid grey;
-    margin: 30px 490px 0px 500px;
-    box-shadow: 0px 0px 12px 8px #898484;
+    margin: 30px 490px 0px 510px;
     cursor: pointer;
 }
 
@@ -175,7 +170,6 @@ p {
     padding: 10px 30px 0px 30px;
     top: 93%;
     left: 23%;
-    box-shadow: 0px 0px 12px 8px #898484;
     cursor: pointer;
 }
 
@@ -188,13 +182,26 @@ p {
     transition: all 0.3s ease;
 }
 
-.banner-image img {
-    margin: 10px 0px 20px 110px;
-    height: 56%;
-    width: 85%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px 9px #b3b3b3;
-    cursor: pointer;
+.banner-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Coding_Banner.jpg);
+}
+
+.title-box-content {
+    text-align: center;
+    color: #08f3f1;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 0px 450px 0px 450px;
+    background-color: #333333a2;
+    position: relative;
+    top: -200px;
+    padding: 15px
+}
+
+.title-box-content h2,p{
+    padding-top: 15px;
 }
 
 .foot{
